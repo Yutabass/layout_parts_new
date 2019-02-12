@@ -30,7 +30,7 @@
                ブロック要素内のテキスト(or インライン要素)の左右中央寄せに関してはtext-align:centerを設定することで簡単にできます。
                ただ、ブロック要素そのものの左右中央寄せは少し工夫をしないとできません。
                大きく分けて2通りのやり方があるのですが、それが以下の問題の2つです。
-               中央寄せするブロックの横幅が可変の場合はtext-alignでの方法が、固定の場合はmarginでの方法が向いています。
+               中央寄せするブロックの横幅が固定の場合は上の方法が、可変の場合は下の方法が向いています。
           -->
           <div class="q6 q6--horizontal">
             <!--
@@ -41,8 +41,8 @@
             <!-- Q6-1の回答はここに書いてね -->
             <!-- 新たにタグは追加しなくてもできます。 -->
             <div class="q6__box">
-              <div>
-                <p>text-align</p>
+              <div class="box_parent">
+                <p class="box_1">text-align</p>
               </div>
             </div>
             <!-- Q6-1の回答はここに書いてね -->
@@ -54,7 +54,7 @@
             <!-- Q6-1の回答はここに書いてね -->
             <!-- 新たにタグは追加しなくてもできます。 -->
             <div class="q6__box">
-              <p>margin</p>
+                <p class="box_2">margin</p>
             </div>
             <!-- Q6-1の回答はここに書いてね -->
           </div>
@@ -84,9 +84,9 @@
           <!-- Q6-2の回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q6 q6--around">
-            <div>
-              <p>table</p>
+          <div class="q6 q6--around table_grand">
+            <div class="table_parent">
+              <p class="table">table</p>
             </div>
           </div>
           <!-- Q6-2の回答はここに書いてね -->
@@ -99,8 +99,8 @@
           <!-- Q6-2の回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q6 q6--around">
-            <p>flex</p>
+          <div class="q6 q6--around flex_parent">
+            <p class="flex">flex</p>
           </div>
           <!-- Q6-2の回答はここに書いてね -->
           <div class="q6 q6--position">
@@ -115,7 +115,7 @@
             <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
             <!-- 新たにタグは追加しなくてもできます。 -->
             <div class="q6__box is-stable">
-              <p class="q6__box__inner">position固定</p>
+              <p class="q6__box__inner fixed">position固定</p>
             </div>
             <!-- Q6-2の回答はここに書いてね -->
             <!--
@@ -129,7 +129,7 @@
             <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
             <!-- 新たにタグは追加しなくてもできます。 -->
             <div class="q6__box is-flexible">
-              <p class="q6__box__inner">position可変</p>
+              <p class="q6__box__inner trans">position可変</p>
             </div>
             <!-- Q6-2の回答はここに書いてね -->
           </div>

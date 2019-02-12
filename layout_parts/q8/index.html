@@ -30,7 +30,7 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn btn_form small">
             <p class="q8__title">ー small ー</p>
             <div>common</div>
             <div>error</div>
@@ -38,7 +38,7 @@
             <div>shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn btn_form middle">
             <p class="q8__title">ー middle ー</p>
             <div>common</div>
             <div>error</div>
@@ -46,7 +46,7 @@
             <div>shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn btn_form large">
             <p class="q8__title">ー large ー</p>
             <div>common</div>
             <div>error</div>
@@ -99,7 +99,66 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <div class="form_parent">
+              <div class="main_title">
+                <p class="main_title_con">Form Exercise</p>
+              </div>
+              <form>
+                <div class="main_form">
+                  <div class="left">
+                    <div class="name">
+                      <span class="font">名前<span class="must">*</span></span>
+                          <input type="text" required class="name_box">
+                    </div>
+                    <div class="gender">
+                      <span class="font">性別</span>
+                      <div class="gender_child">
+                        <label class="point">
+                          <input type="radio" name="one" class="gender_box">
+                          <span class="gender_box_child">男性</span>
+                        </label>
+                        <label class="point">
+                            <input type="radio" name="one" class="gender_box">
+                            <span class="gender_box_child">女性</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="graduate">
+                      <span class="font">出身</span>
+                      <div class="graduate_child">
+                        <select class="graduate_box">
+                          <option>東京</option>
+                          <option>埼玉</option>
+                          <option>千葉</option>
+                          <option>神奈川</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="mail">
+                        <span class="font">Eメール<span class="must">*</span></span>
+                        <input type="email" required placeholder="ex) hoge@gmail.com" class="mail_box">
+                    </div>
+                    <div class="phone">
+                        <span class="font">電話番号</span>
+                        <input type="text" placeholder="ex) 08012345678" class="phone_box">
+                    </div>
+                    <div class="adult">
+                      <label>
+                        <input type="checkbox" class="adult_box"><span class="adult_box_child">20歳以上です</span>
+                      </label>
+                    </div>
+                    <div class="send_parents">
+                        <button class="send">送信</button>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div class="freeform">
+                      <textarea placeholder="何かあれば入力してください。" class="freeform_box"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

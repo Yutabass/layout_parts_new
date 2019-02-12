@@ -1,5 +1,140 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.float1{
+box-sizing: border-box;
+width: 225px;
+font-size: 16px;
+float: left;
+margin-right: 50px;
+}
+
+.float2{
+box-sizing: border-box;
+width: 225px;
+font-size: 16px;
+float: left;
+}
+
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.table_grand{
+  display: table;
+}
+
+.table1_parent{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table2_parent{
+  display: table-cell;
+}
+
+.table1{
+  width: 225px;
+  box-sizing: border-box;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+.table2{
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.inline_parent{
+  font-size: 0;
+}
+.inline1{
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.inline2{
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.flex_parent{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex1{
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.flex2{
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* 
+.grand{
+  position: relative;
+  width: 100%;
+}
+.inline3_parent{
+  font-size: 0;
+} */
+
+/* .margin_parent{
+  font-size: 0;
+  position: absolute;
+  top: 20px;
+  left: 350px;
+}
+.inline3{
+  width: 300px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+  word-break: break-all;
+  vertical-align: top;
+}
+
+.margin{
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+  margin: 0 20px 20px 0;
+} */
+
+.grand{
+  font-size: 0;
+}
+
+.inline3_parent{
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.margin_parent{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 350px;
+  margin-top: -116px;
+  font-size: 16px;
+}
+
 
 /* 回答はここに書いてね */
