@@ -3,19 +3,15 @@
 /* 回答はここに書いてね */
 
 
-.btn_form :nth-child(2){
+.common{
   display: inline-block;
   background-color: #00bcd4;
   color: #fff;
   margin: 5px;
-  /* cursor: pointer; */
-}
-
-.btn_form :nth-child(2):hover{
   cursor: pointer
 }
 
-.btn_form :nth-child(3){
+.error{
   display: inline-block;
   background-color: #ff408f;
   color: #fff;
@@ -23,7 +19,7 @@
   cursor: pointer;
 }
 
-.btn_form :nth-child(4){
+.disabled{
   display: inline-block;
   background-color: #e5e5e5;
   color: #fff;
@@ -31,7 +27,7 @@
   cursor: default;
 }
 
-.btn_form :nth-child(5){
+.shadow{
   background-color: #fff;
   display: inline-block;
   color: #222;
@@ -40,21 +36,21 @@
   cursor: pointer;
 }
 
-.small div{
+.small__btn{
   font-size: 16px;
   border-radius: 3px;
   padding: 0 15px;
   line-height: 26px;
 }
 
-.middle div{
+.middle__btn{
   font-size: 20px;
   border-radius: 5px;
   padding: 0 20px;
   line-height: 32px;
 }
 
-.large div{
+.large__btn{
   font-size: 24px;
   border-radius: 7px;
   padding: 0 25px;

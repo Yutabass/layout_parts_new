@@ -7,28 +7,29 @@
   margin: auto;
 }
 
-.main_sub1{
-  padding: 20px 20px 0 20px;
+.main__content{
+  padding: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
 }
 
-.main_sub2{
-  padding: 0 20px 20px 20px;
+.main__content:first-child{
+  padding-bottom: 0;
 }
 
-.img1{
+.main__content:last-child{
+  padding-top: 0;
+}
+
+.img__left{
 float: left;
 margin: 0 20px 10px 0;
 }
 
-.img2{
+.img__right{
 float: right;
 margin: 0 0 10px 20px;
-}
-
-.main_sub1 p, .main_sub2 p{
-font-size: 18px;
-line-height: 22px;
-word-break: break-all;
 }
 
 .clearfix:after {

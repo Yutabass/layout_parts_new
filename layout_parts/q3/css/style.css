@@ -3,34 +3,32 @@
 /* 回答はここに書いてね */
 
 
-table{
+.main__content{
 margin: auto;
 width: 100%;
 text-align: center;
 table-layout: fixed;
 }
 
-th, td{
+.main__content th, .main__content td{
   border: solid #dedede 1px;
 }
 
-
-
-.blue{
+.main__content th{
   color: #fff;
   font-size: 18px;
   line-height: 22px;
   background-color: #2244aa;
-padding: 10px;
+  padding: 10px;
 }
 
-.gray{
+.main__content tr:nth-child(odd){
   font-size: 16px;
   line-height: 22px;
   background-color:#ecf1f2;
 }
 
-.cal{
+.main__content tr:nth-child(6){
 border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
