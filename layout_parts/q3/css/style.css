@@ -28,7 +28,7 @@ table-layout: fixed;
   background-color:#ecf1f2;
 }
 
-.main__content tr:nth-child(6){
+.main__content tr:last-child{
 border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

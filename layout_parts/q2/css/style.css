@@ -5,21 +5,13 @@
   width: 940px;
   background-color: #eff3f4;
   margin: auto;
+  padding: 20px;
 }
 
 .main__content{
-  padding: 20px;
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;
-}
-
-.main__content:first-child{
-  padding-bottom: 0;
-}
-
-.main__content:last-child{
-  padding-top: 0;
 }
 
 .img__left{
